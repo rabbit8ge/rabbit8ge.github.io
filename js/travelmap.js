@@ -232,11 +232,11 @@ function onClickMap() {
 function loadTravelMap(domEle, travels) {
 	require.config({
 			paths: {
-				echarts: 'js/echarts'
+				echarts: '/js/echarts'
 			}
 		});
 	require([
-		'echarts',
+		'echarts/echarts',
 		'echarts/config',
 		'echarts/chart/map'
 	], function (ec, ecConfig) {
