@@ -1,0 +1,19 @@
+---
+layout: page
+title : 我的足迹
+header : 我的足迹
+group: footprint
+---
+
+<div class="col-sm-4 single-card-box wow fadeInUpSmall" data-wow-delay=".2s" data-wow-duration=".7s">
+	<!-- TODO: Move the script to js.html -->
+     <script src="http://apps.bdimg.com/libs/require.js/2.1.11/require.min.js"></script>
+     <script src="/js/travelmap.js"></script>
+    <div>
+    	<div id="travelmap" style="width:900px;height:700px;left:center"></div>
+    </div>
+    <script>
+        var travel_cities = {% include data/zf_travel_cities.json %};
+        loadTravelMap(document.getElementById('travelmap'), travel_cities);
+    </script>
+</div>

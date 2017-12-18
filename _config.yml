@@ -57,6 +57,7 @@ nav:
     - {title: 所有文章, description: archive, url: '/archive'}   
     - {title: 标签, description: tags, url: '/tags'}      
     - {title: 我的足迹, description: footprint, url: '/footprint'}
+    - {title: zf的足迹, description: footprint, url: '/zf_footprint'}
     - {title: 关于我, description: about, url: '/about'}      
     
 
