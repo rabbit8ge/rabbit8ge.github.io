@@ -111,6 +111,15 @@
 					]
 				},
 				{
+					"name": "安徽",
+					"children": "16",
+					"position": [
+						{
+							"name": "黄山市"
+						}
+					]
+				},
+				{
 					"name": "福建",
 					"children": "9",
 					"position": [
